@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /* Global Styles */
 :root {
@@ -15,9 +15,14 @@
   padding: 0;
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
   line-height: 1.6;
   background-color: #fff;
   color: #333;
@@ -370,6 +375,14 @@ table th {
   display: flex;
 }
 
+.navbar i {
+  margin-right: 0.5rem;
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+}
+
 .navbar a {
   color: #fff;
   padding: 0.45rem;
@@ -432,7 +445,9 @@ table th {
   }
 
   .navbar h1 {
+    font-size: 1.8rem;
     margin-bottom: 0.6rem;
+    margin-left: 1rem;
   }
 
   .navbar ul {
